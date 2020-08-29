@@ -1,4 +1,4 @@
-# Digit Recognizer
+# Fashion Items Classification
 
 Classifying MNIST fashion images using CNN
 
