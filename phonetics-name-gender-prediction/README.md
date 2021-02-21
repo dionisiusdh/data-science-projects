@@ -1,7 +1,10 @@
-# Google Ads Keywords Generator
-> Generating simple keywords for Google Ads
+# Phonetics Name Gender Prediction
+> Gender Prediction using Sound
 
-The most important task in structuring a search engine marketing account is mapping 
-the right keywords to the right ads and making sure they send users to the right 
-landing pages. Having figured that out is a big part of the account setup and makes
-the life of the account manager much easier.
+The same name can be spelled out in a many ways (for example, Marc and Mark, or Elizabeth and Elisabeth). 
+Sound can, therefore, be a better way to match names than spelling. In this project, we will use the 
+Python package Fuzzy to find out the genders of authors that have appeared in the New York Times Best Seller list for Children's Picture books.
+
+First, using fuzzy (sound) name matching, we will search for author names in a dataset provided by the US Social Security Administration that 
+contains names and genders of all individuals who have applied for Social Security Cards. Next, we'll aggregate the author dataset by including gender. 
+Finally, we will use the new dataset to plot the gender distribution of children's picture books authors over time.
